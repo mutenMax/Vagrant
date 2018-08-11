@@ -21,6 +21,7 @@ Instructions:
 3. Start the new VM
 
 ```vagrant up``` 
+
 4. ssh to a newly created VM.
 
 ```vagrant ssh```
