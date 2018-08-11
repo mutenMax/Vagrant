@@ -1,0 +1,13 @@
+VM_SERVER_IP_ADDRESS = "192.168.50.4"
+BOX_BASE = "centos/7"
+BOX_NAME = "Centos 7 - Proteus"
+
+
+Vagrant.configure("2") do |config|
+  config.vm.box = BOX_BASE
+
+  config.vm.network "private_network", ip: VM_SERVER_IP_ADDRESS
+  config.vm.provider :virtualbox do |vb|
+    vb.name = BOX_NAME
+  end
+end
