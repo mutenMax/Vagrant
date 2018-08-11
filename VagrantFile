@@ -1,6 +1,6 @@
 VM_SERVER_IP_ADDRESS = "192.168.50.4"
 BOX_BASE = "centos/7"
-BOX_NAME = "Centos 7 - Proteus"
+BOX_NAME = "Centos 7"
 
 
 Vagrant.configure("2") do |config|
