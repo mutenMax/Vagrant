@@ -1,6 +1,6 @@
 # Vagrant
 
-How to set centos7 with virtual box Guest Additions
+How to setup centos7 with virtual box Guest Additions
 
 Why you need Guest Additions?
 
